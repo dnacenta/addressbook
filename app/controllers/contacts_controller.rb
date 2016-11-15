@@ -1,6 +1,6 @@
 class ContactsController < ApplicationController
   def index
-     @contacts = Contact.order(created_at: :asc)
+     @contacts = Contact.order(name: :asc)
   end
 
   def create
