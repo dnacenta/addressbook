@@ -1,0 +1,14 @@
+<h1>Edit Contact Details</h1>
+
+<%= form_for @contact, url: {action: "update", id: @contact} do |i| %>
+
+<p>Address: <%= i.text_field 'address' %></p>
+<p>Phone: <%= i.telephone_field  'phone' %></p>
+<p>Email: <%= i.email_field 'email'%></p>
+
+<%= i.submit "Save changes" %>
+<% end %>
+
+</hr>
+
+<%= link_to 'Home', {:action => 'index' } %>

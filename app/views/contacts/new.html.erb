@@ -1,14 +1,16 @@
 <h1>Add a new contact</h1>
 
+<hr>
+
 <form action="/contacts" method="POST">
   <div>
     <label for="contact_name">Name</label>
-    <input type="text" name="contact[name]" id="contact_name" placeholder="Name Surname">
+    <input type="text" name="contact[name]" id="contact_name" placeholder="Name Surname" required>
   </div>
 
   <div>
     <label for="contact_address">Address</label>
-    <textarea name="contact[address]" id="contact_address" placeholder="Address"></textarea>
+    <textarea name="contact[address]" id="contact_address" placeholder="Address" required></textarea>
   </div>
 
   <div>
@@ -25,7 +27,6 @@
   <button type="submit">Add this contact</button>
 </form>
 
-
-
+<hr />
 
 <%= link_to 'Home', '/' %>

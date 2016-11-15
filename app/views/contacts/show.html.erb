@@ -1,0 +1,16 @@
+<h1><%= @contact.name %></h1>
+
+<hr>
+
+<%= link_to 'Edit', {action: 'edit', id: @contact.id } %>
+<%= link_to "Delete", {action: 'delete',id: @contact.id} %>
+
+<p>
+   <strong>Address: </strong> <%= @contact.address %><br />
+   <strong>Phone :</strong> <%= @contact.phone %><br />
+   <strong>Email:</strong> <%= @contact.email %><br />
+</p>
+
+<hr />
+
+<%= link_to 'Home', {:action => 'index'} %>
