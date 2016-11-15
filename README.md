@@ -1,24 +1,5 @@
-# README
+# address book
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Ruby on Rails app. 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Adress Book. It is simple as the name. You can add users to a list of contacts with attributes like :name, address, phone and mail.
